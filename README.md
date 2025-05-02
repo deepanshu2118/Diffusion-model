@@ -25,3 +25,23 @@ Generative AI has seen rapid advancement through the development of diffusion mo
 git clone https://github.com/yourusername/deep-learning-diffusion-genai.git
 cd deep-learning-diffusion-genai
 pip install -r requirements.txt
+
+
+## 🧪 Usage
+# Training
+python train.py --config configs/default.yaml
+
+# Sampling
+python sample.py --checkpoint checkpoints/model.pth --output_dir results/
+
+## 🧾 Project Structure
+.
+├── configs/          # YAML configuration files
+├── data/             # Dataset loading and preprocessing
+├── models/           # Neural network architectures
+├── diffusion/        # Core diffusion process logic
+├── train.py          # Training script
+├── sample.py         # Sampling script
+├── utils.py          # Utility functions
+└── README.md
+
