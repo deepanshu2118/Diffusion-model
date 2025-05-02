@@ -29,13 +29,17 @@ pip install -r requirements.txt
 
 ## 🧪 Usage
 # Training
+```bash
 python train.py --config configs/default.yaml
+```
 
 # Sampling
+```bash
 python sample.py --checkpoint checkpoints/model.pth --output_dir results/
+```
 
 ## 🧾 Project Structure
-.
+```bash
 ├── configs/          # YAML configuration files
 ├── data/             # Dataset loading and preprocessing
 ├── models/           # Neural network architectures
