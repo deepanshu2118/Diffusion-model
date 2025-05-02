@@ -25,7 +25,7 @@ Generative AI has seen rapid advancement through the development of diffusion mo
 git clone https://github.com/yourusername/deep-learning-diffusion-genai.git
 cd deep-learning-diffusion-genai
 pip install -r requirements.txt
-
+```
 
 ## 🧪 Usage
 # Training
