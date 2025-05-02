@@ -1,0 +1,32 @@
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.22.0
+tqdm>=4.64.0
+
+# Image processing
+opencv-python>=4.6.0
+
+# For model and training
+matplotlib>=3.5.0
+scikit-learn>=1.2.0
+
+# Logging & experiment tracking
+tensorboard>=2.10.0
+wandb>=0.13.0  # Optional: only if using Weights & Biases
+
+# Configuration management
+hydra-core>=1.2.0
+
+# Diffusion-specific helpers (optional, for advanced use)
+diffusers>=0.22.0  # For pretrained models like Stable Diffusion
+transformers>=4.30.0  # If using CLIP/T5 for conditional generation
+accelerate>=0.20.0  # For fast training/inference
+
+# Jupyter support (if using notebooks)
+jupyterlab>=3.4.0
+
+
+cuda
+Adam
+MSEloss
